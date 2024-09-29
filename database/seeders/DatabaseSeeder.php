@@ -17,25 +17,25 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        // User::create([
-        //     'name' => 'user1',
-        //     'email' => 'user@gmail.com',
-        //     'password' => bcrypt('123456789'),
-        //     'point' => 10000,
-        // ]);
+         User::create([
+             'name' => 'user1',
+             'email' => 'suci@gmail.com',
+             'password' => bcrypt('123456789'),
+             'point' => 10000,
+         ]);
 
-        // Admin::create([
-        //     'name' => 'admin',
-        //     'username' => 'Admin',
-        //     'email' => 'admin@gmail.com',
-        //     'password' => bcrypt('123456789') ,
-        // ]);
+         Admin::create([
+             'name' => 'admin',
+             'username' => 'Admin',
+             'email' => 'admin@gmail.com',
+             'password' => bcrypt('123456789') ,
+         ]);
 
         Distributor2::create([
-            'nama_distributor' => 'putri',
-            'lokasi' => 'gerilya',
-            'kontak' => '082288056730',
-            'email' => 'user@gmail.com',
+            'nama_distributor' => 'suci',
+            'lokasi' => 'damon',
+            'kontak' => '0822867689',
+            'email' => 'suci@gmail.com',
         ]);
     }
 }
